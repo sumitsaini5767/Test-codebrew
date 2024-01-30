@@ -26,7 +26,6 @@ async function fetchFirstFivePostTitles() {
   }
 }
 
-// Example usage
 fetchFirstFivePostTitles()
   .then((titles) => console.log("Titles of the first 5 posts:", titles))
   .catch((error) => console.error("Error:", error.message));
